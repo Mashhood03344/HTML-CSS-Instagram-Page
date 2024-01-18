@@ -1,0 +1,420 @@
+/* styling the whole body of the page such that the two divs are side by side
+
+.flex-container {
+  display: flex;
+}
+
+.left-half {
+  flex: 1;
+}  
+
+.right-half {
+  margin-top:20px;
+  margin-left: 300px;
+}  */
+
+/* styling the right half of the page 
+
+.mobile{
+  height: 73%;
+}
+
+
+.form-div{
+    margin-top: 25px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.signUp{
+    border: 1px solid black;
+    margin-left: 585px;
+    text-align: center;
+    /* margin-right:585px; */
+    /* margin-top: 15px;
+    padding-top: 15px; */
+    /* padding-bottom: 15px; */
+/* }
+
+input{
+    padding: 5px;
+}
+
+.textIBL{
+    width: 79%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 25px 37px 30px;
+}
+
+.textIBL .textIBL-span{
+    background:#fff; 
+    padding:0 20px;
+} */
+
+/* styling the footer */
+
+/* .Nav-links-anchors{
+    margin-right: 30px;
+}
+
+
+a{
+    text-decoration: none;
+}
+.login-button{
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+}
+
+.insta-title{
+
+} */
+
+/* facebook icon styling */
+
+/* .fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+  } */
+  
+  /* Add a hover effect if you want */
+  /* .fa:hover {
+    opacity: 0.7;
+  } */
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  /* .fa-facebook {
+    background: #3B5998;
+    color: white;
+  } */
+  /* Add a hover effect if you want */
+  /* .fa:hover {
+    opacity: 0.7;
+  }
+   */
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  /* .fa-facebook {
+    background: #3B5998;
+    color: white;
+  } */
+
+  /* styling of the fb link text in the anchor tag */
+
+  /* .fb-text-span{
+    margin-left: 5px;
+  } */
+
+  /* styling of the third div */
+
+  /* .div3{
+    margin-left: 585px;
+    text-align: center;
+    margin-right:585px;
+    margin-top: 15px;
+  } */
+
+  /* .appGettingIcons{
+    margin-left: 585px;
+    text-align: center;
+    margin-right:585px;
+    margin-top: 15px;
+  } */
+
+  /* styling the images */
+
+  /* .playstore{
+    width: 37%;
+  }
+
+  .microsoft{
+    width: 30%;
+  }
+
+  .microsoft1{
+    width: 30%;
+  }
+
+  .playstore1{
+    width: 35%;
+    margin-right: 13px;
+  }
+
+  img{
+    margin-bottom: 80px;
+  } */
+
+  /* styling the footer */
+
+/* .Nav-links{
+    margin-top: 100px;
+    width: 65%;
+    text-align: center;
+    display: inline;
+    padding-left: 270px;
+}
+
+.Nav-links-anchor{
+    margin-right: 10px;
+}
+
+.page-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.languages {
+    margin-right: 10px;
+} */
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* applying style to the whole body of the page  */
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-half img {
+  max-width: 100%;
+  height: auto;
+}
+
+.left-half {
+  flex: 1;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.form-div {
+  margin-top: 20px;
+  border: 1px solid #dbdbdb;
+  padding: 20px;
+  width: 300px;
+}
+
+h1.insta-title {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0095f6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.login-button:hover {
+  background-color: #0077cc;
+}
+
+.textIBL {
+  width: 80%;
+  text-align: center;
+  border-bottom: 1px solid #dbdbdb;
+  line-height: 0.1em;
+  margin: 25px auto 30px;
+}
+
+.textIBL .textIBL-span {
+  background: #fff;
+  padding: 0 20px;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* styling of the fb link text in the anchor tag */
+
+.fb-text-span{
+  margin-left: 5px;
+}
+
+.forgot-password {
+  text-decoration: none;
+  color: #00376b;
+  display: block;
+  margin-top: 10px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.signUp {
+  border: 1px solid #dbdbdb;
+  text-align: center;
+  margin-top: 15px;
+  padding: 15px;
+}
+
+.div3,
+.appGettingIcons {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.appGettingIcons img {
+  width: 120px;
+  margin-right: 15px;
+}
+
+.microsoft{
+  width: 90px;
+}
+
+.Nav-links {
+  margin-top: 60px;
+  width: 65%;
+  text-align: center;
+}
+
+.Nav-links a.Nav-links-anchor {
+  margin-right: 15px;
+  color: #00376b;
+  text-decoration: none;
+}
+
+.Nav-links a.Nav-links-anchor:hover {
+  text-decoration: underline;
+}
+
+.page-end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.languages {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.languages-para {
+  display: inline; /* This will make the paragraph display inline */
+}
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+ 
+  .flex-container {
+      flex-direction: column;
+  }
+
+  .right-half {
+      margin-left: 0;
+  }
+
+  .left-half {
+      margin-right: 0;
+  }
+
+  .form-div {
+      width: 80%;
+  }
+
+  .appGettingIcons img {
+      width: 50%;          
+  }
+
+  .languages {
+      margin-right: 0;
+  }
+
+  .languages-para {
+      margin-left: 5px; 
+  }
+
+  .page-end {
+      margin-top: 10px; 
+  }
+
+  .Nav-links {
+      margin-top: 30px; 
+  }
+
+  .Nav-links a.Nav-links-anchor {
+      margin-right: 0; 
+  }
+}
+
+@media (max-width: 480px) {
+  
+  .form-div {
+      width: 90%;
+  }
+
+  .appGettingIcons img {
+      width: 40%; 
+  }
+
+  .languages {
+      padding: 3px; 
+  }
+}
